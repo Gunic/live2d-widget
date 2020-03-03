@@ -76,12 +76,12 @@
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
 		"selector": "a[href^='/tags/']",
-		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
+		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看此标签下的所有文章哟！"]
 	}, {
-		"selector": "a[href^='/categories/']",
-		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
+		"selector": "a[href^='/types/']",
+		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": ".post-title-link",
+		"selector": ".m-black",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
 		"selector": "a[rel='contents']",
@@ -90,7 +90,7 @@
 		"selector": "a[itemprop='discussionUrl']",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#toTop-button",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
