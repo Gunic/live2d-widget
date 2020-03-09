@@ -45,19 +45,19 @@
 		"selector": ".menu-item-friends",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".ui.icon",
+		"selector": "#search",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
 		"selector": ".site-author",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
-		"selector": ".content",
-		"text": ["没错没错，是我家主人！", "不是管理员，是<span>{text}</span>哒！", "诶，为什么叫什么名字呢？"]
+		"selector": "#nickname",
+		"text": ["没错没错，是我家主人！", "不是管理员，是<span>{text}</span>哒！", "诶，为什么叫这个名字呢？"]
 	}, {
 		"selector": ".rounded.image",
 		"text": ["啊，是小主人啊~", "小主人真可爱对不对？","当然，我是最可爱的！"]
 	}, {
-		"selector": ".calendar",
+		"selector": "#calendar",
 		"text": ["来看看今天的日期？","光阴荏苒，日月如梭"]
 	}, {
 		"selector": ".site-state",
@@ -88,15 +88,15 @@
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
 		"selector": "a[href^='/tags/']",
-		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看全部的标签呦！","快看看这里都有什么呢？"]
+		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看标签呦！","快看看这里都有什么呢？"]
 	}, {
 		"selector": "a[href^='/types/']",
-		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看全部的分类哟！","快看看这里都有什么呢？"]
+		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看分类哟！","快看看这里都有什么呢？"]
 	}, {
-		"selector": "a[href^='/archives/']",
+		"selector": "a[href^='/archives']",
 		"text": ["要去看看 <span>{text}</span> 么？", "点它可以查看我的归档哦！","快看看这里都有什么呢？"]
 	}, {
-		"selector": "a[href^='/about/']",
+		"selector": "a[href^='/about']",
 		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
 	}, {
 		"selector": ".m-black",
@@ -109,7 +109,7 @@
 		"text": ["要去看看评论吗？"]
 	}, {
 		"selector": "#toTop-button",
-		"selector": "#to_top",
+		"selector": "#toTop",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
@@ -157,11 +157,14 @@
 		"selector": ".extend.prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
-		"selector": "input.vnick",
+		"selector": "#name",
 		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
 	}, {
-		"selector": ".vmail",
-		"text": ["留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
+		"selector": "#mail",
+		"text": ["留下你的邮箱，不然就是无头像人士了！", "为了方便通知你最新消息，一定要留下邮箱！"]
+	}, {
+		"selector": "#write",
+		"text": ["我喜欢这句话！", "主人到底经历了什么呢？","要不要去听听浜崎あゆみ的Love Song呢！"]
 	}, {
 		"selector": ".vlink",
 		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
