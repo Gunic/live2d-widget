@@ -151,10 +151,10 @@
 		"selector": ".post-nav-item a[rel='prev']",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
-		"selector": ".extend.next",
+		"selector": ".next",
 		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
 	}, {
-		"selector": ".extend.prev",
+		"selector": ".prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
 		"selector": "#name",
